@@ -17,14 +17,14 @@
     <div class="cardItem card col-sm-2" *ngFor="let item of ossomArray, let i = index"
          style="text-align: center; cursor: pointer"
          (click)="startMatch(i)">
-      <img src="./assets/img/{{item}}.png" alt="" >
+      <img src=".browser/assets/img/{{item}}.png" alt="" >
       <h4>{{item}}</h4>
     </div>
     <div class="col-sm-4">
       <h1 class="vs">VS</h1>
     </div>
     <div class="card col-sm-2" style="text-align: center;">
-        <img src="./assets/img/{{computerSelect}}.png" alt="" >
+        <img src=".browser/assets/img/{{computerSelect}}.png" alt="" >
       <h4>{{computerSelect}}</h4>
     </div>
     <button class="btn btn-success col-sm-1" style="margin-top: 2rem" (click)="resetScore()">Reset score</button>
