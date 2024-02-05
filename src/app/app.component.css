@@ -1,0 +1,7 @@
+.cardItem:hover {
+    border-color: red;
+}
+.vs {
+  text-align: center;
+  line-height: 18rem;
+}
